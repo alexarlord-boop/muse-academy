@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/muse-academy/static/css/main.e8fa83fe.css",
+    "main.js": "/muse-academy/static/js/main.62711664.js",
+    "static/js/453.74a6184d.chunk.js": "/muse-academy/static/js/453.74a6184d.chunk.js",
+    "static/media/img.png": "/muse-academy/static/media/img.95d61ef9bfe25604f170.png",
+    "index.html": "/muse-academy/index.html",
+    "main.e8fa83fe.css.map": "/muse-academy/static/css/main.e8fa83fe.css.map",
+    "main.62711664.js.map": "/muse-academy/static/js/main.62711664.js.map",
+    "453.74a6184d.chunk.js.map": "/muse-academy/static/js/453.74a6184d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8fa83fe.css",
+    "static/js/main.62711664.js"
+  ]
+}
