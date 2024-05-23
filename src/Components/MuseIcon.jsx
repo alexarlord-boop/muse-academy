@@ -1,6 +1,6 @@
 export default function MuseIcon() {
     return (
-        <div className="museIcon">
+        <div className="museIcon" data-aos="zoom-in" >
             <svg width="144" height="40" viewBox="0 0 144 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_4003_500)">
                     <path fillRule="evenodd" clipRule="evenodd"

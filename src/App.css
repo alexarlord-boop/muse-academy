@@ -2,6 +2,24 @@
     text-align: center;
 }
 
+.App-header {
+    /*position: sticky;*/
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Adjust the background color as needed */
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    justify-content: center; /* Center the icon initially */
+    align-items: center;
+    padding: 10px; /* Adjust the padding as needed */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.App-header.scrolled {
+    justify-content: flex-start; /* Align the icon to the left */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
 .museIcon {
     padding: 32px 0;
 }
