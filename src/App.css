@@ -1,38 +1,169 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.museIcon {
+    padding: 32px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+    color: #4B4B4B;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.description {
+    line-height: 24px;
+    font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question {
+    font-size: 14px;
+}
+
+
+.HeroSection {
+    background-color: #EEF0F2;
+    padding: 0 24px;
+}
+
+.HeroSectionContent {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    background-image: url("../public/img.png");
+    /*width: 640px;*/
+    height: 293px;
+    border-radius: 8px;
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image within the div */
+
+}
+
+
+.product-card {
+    text-align: start;
+    max-width: 314px;
+    min-height: 340px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-text {
+    margin-bottom: 13px;
+    font-size: 16px;
+    height: 72px;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-card .btn {
+    font-size: 14px;
+}
+
+.product-card  {
+
+    text-decoration: none;
+
+}
+.footer-icon,
+.product-card .btn {
+    transition: all 0.2s linear;
+}
+
+.product-card:hover .btn,
+.product-card .btn:focus {
+    transform: scale(1.1) translateX(7px);
+}
+
+.footer-icon:hover, .footer-icon:focus {
+    transform: scale(1.5);
+}
+
+
+.BlogListSection {
+    max-width: 692px;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialAndText {
+    margin: auto;
+    max-width: 640px;
+    padding: 0 24px;
+}
+
+.icon-set {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.App-footer {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.footer-lnk {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .museIcon {
+        padding: 24px 0;
+    }
+
+
+    .hero-img {
+        height: 206px;
+    }
+
+    .BlogListSection {
+        max-width: 272px;
+    }
+
+    .product-card {
+        width: 271px;
+        height: 340px;
+    }
+
+    .icon-set {
+        gap: 40px;
+    }
+
+
+
+    .footer-lnk {
+        font-size: 11px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
 }
